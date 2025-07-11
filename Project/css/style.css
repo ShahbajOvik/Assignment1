@@ -31,14 +31,16 @@
   }
   
   .btn {
-    background: #4E47FF;
-    padding: 12px 36px;
-    border-radius: 6px;
-    font-weight: bold;
-    font-size: 16px;
     display: inline-block;
+    padding: 14px 28px;
+    font-size: 16px;
+    font-weight: 600;
     border: none;
+    border-radius: 8px;
+    background-color: #4E47FF;
     color: white;
+    cursor: pointer;
+    width: auto;
   }
   
   .btn:hover {
@@ -94,18 +96,38 @@
   /* Preview */
   .preview {
     display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     justify-content: space-between;
-    padding: 60px 20px;
-  }
-  .preview .text {
-    max-width: 500px;
-  }
-  .preview .image {
-    max-width: 400px;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 auto;
+    gap: 40px;
+    padding: 60px 80px;
+    background: #f4f6fb; /* light gray background like your design */
     border-radius: 20px;
   }
+  
+  .text h2 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 23px;
+    color: #222;
+  }
+  
+  .text p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 24px;
+  }
+  
+  
+  
+  .image-block img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 32px;
+    object-fit: cover;
+  }
+  
   
   /* Stats */
   .stats {
